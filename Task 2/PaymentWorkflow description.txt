@@ -1,0 +1,25 @@
+1. Client Initiates Payment
+- The customer enters credit card details on the acquiring’s website or app.
+- The payment request is sent to the payment gateway securely.
+
+2. Payment Gateway Processes the Request
+- The gateway encrypts the transaction details.
+- It forwards the request to the acquiring bank.
+
+3. Acquiring Bank Sends to Card Network
+- The bank sends the transaction to the card network (Visa, MasterCard, etc.).
+
+4. Process Client Transaction
+- The card network routes the request to the issuing bank.
+
+5. Issuing Bank Approves or Deny
+- The bank verifies the card details and checks for sufficient funds.
+- If approved, it sends an authorization code back through the network.
+
+6. Transaction Completes
+- The payment gateway receives the approval and notifies the acquiring bank.
+- The acquiring bank confirms the purchase to the customer.
+
+7. Fund & Receipt Transfer
+- The acquiring bank receives the payment after settlement.
+- The Client receives the receipt after settlement.
